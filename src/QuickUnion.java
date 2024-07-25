@@ -1,5 +1,5 @@
 public class QuickUnion {
-    protected int[] id;
+    private int[] id;
 
     public QuickUnion(int n) {
         id = new int[n];
@@ -8,7 +8,7 @@ public class QuickUnion {
             id[i] = i;
     }
 
-    protected int root(int i) {
+    private int root(int i) {
         while (i != id[i])
             i = id[i];
 
