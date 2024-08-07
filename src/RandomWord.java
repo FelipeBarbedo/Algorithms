@@ -9,6 +9,7 @@ or list. Instead, use Knuth’s method: when reading the ith word, select it wit
 probability 1/i to be the champion, replacing the previous champion. After reading
 all the words, print the surviving champion.
  */
+
 public class RandomWord {
     public static void main(String[] args) {
         String champion = "";
